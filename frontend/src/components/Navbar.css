@@ -1,0 +1,83 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0b03;
+    padding: 15px 20px;
+    color: white;
+}
+
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    flex: 1;
+    max-width: 300px;
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    color: black;
+
+}
+
+.search-bar:hover {
+    background-color: #ecf0f1;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color:black;
+}
+
+/* Login and Signup Buttons */
+.nav-link[href='/login'] {
+    background-color: green;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-link[href='/register'] {
+    background-color: blue;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Username */
+.username {
+    font-weight: bold;
+}
+
+/* Logout Button */
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
